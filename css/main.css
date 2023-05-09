@@ -1,8 +1,8 @@
 /* Global rules */
 @import url('https://fonts.googleapis.com/css2?family=Manrope&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Poltawski+Nowy:wght@600&display=swap');
 html {
-    background-color: lightgray;
+    background-color: rgb(86, 73, 73);
     font-family: 'Manrope', sans-serif;
     font-size: 0.95em;
     line-height: 1.5em;
@@ -20,6 +20,9 @@ h1 {
     line-height: 2.5em;
 }
 
+h1.page-header{
+    font-family: 'Poltawski Nowy', serif;
+}
 main.wrapper {
     background-color: white;
     overflow: auto;
